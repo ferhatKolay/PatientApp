@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    database: postgresql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5455/hospital
+    username: hospital
+    password: hospital
+    driverClassName: org.postgresql.Driver
+
+
